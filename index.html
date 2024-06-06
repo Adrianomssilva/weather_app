@@ -8,12 +8,12 @@
 </head>
 <body class=" bg-gray-900 flex justify-center content-center max-w-full w-screen h-screen truncate">
     <div class="bg-gradient-to-r from-green-400 to-blue-500 max-w-2xl min-w-80 w-full pt-20 rounded-lg text-center h-auto max-h-fit my-10">
-        <div class="search flex justify-center gap-4 w-full">
-          <input class="rounded-full px-6 py-2.5 text-lg" type="text" placeholder="Cidade">
-          <button class="bg-gray-200 w-10 h-10 rounded-full flex  justify-center content-center flex-wrap"><img src="img/search.png" class="w-6 h-6"></button>
+        <div class="flex justify-center gap-4 w-full">
+          <input class="rounded-full px-6 py-2.5 text-lg" type="text" placeholder="Cidade" id="search">
+          <button class="bg-gray-200 w-10 h-10 rounded-full flex  justify-center content-center flex-wrap" id="btn"><img src="img/search.png" class="w-6 h-6"></button>
         </div>
-        <div class="weather grid grid-cols-1 place-items-center mt-10 gap-4 text-white">
-          <img src="img/rain.png" alt="">
+        <div class="grid grid-cols-1 place-items-center mt-10 gap-4 text-white">
+          <img src="img/rain.png" alt="" id="weatherimg">
           <h1 class="font-extrabold text-5xl" id='temp'>22°C</h1>
           <h2 class="font-bold text-4xl" id="city">New York</h2>
           <div class="grid grid-cols-2 gap-x-20 mt-10 text-white">
@@ -34,4 +34,5 @@
         </div>
     </div>
 </body>
+<script src="script.js"></script>
 </html> 
